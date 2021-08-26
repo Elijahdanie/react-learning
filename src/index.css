@@ -7,6 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.box-case {
+  border-radius: 10px;
+ display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items:center;
+  width: 200px;
+  padding: 5px;
+  background-color: rgb(65, 101, 128);
+  justify-content: center;
+  border-style:solid;
+  border-color: rgb(87, 87, 87);
+}
+
+.puzzle-app{
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Title{
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-text{
+  color: rgb(211, 211, 211);
+  background-color :transparent;
+  border-style: none;
+  font-weight: 500;
+  font-size:40px;
+  align-self: center;
+}
+
+.box{
+  display: flex;
+  background-color: rgb(208, 132, 18);
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;border-color: rgb(170, 112, 4);
+  box-shadow: 4px 4px rgb(67, 67, 67);
+  align-self: center;
+  justify-content: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

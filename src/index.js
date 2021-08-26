@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import OfficeRoot from './officeRoot'
+import FlexTest from './flexbox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <OfficeRoot />
-    <App />
+    <FlexTest />
   </React.StrictMode>,
   document.getElementById('root')
 );
