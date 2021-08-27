@@ -11,7 +11,7 @@ class Box extends Component {
         const {value} = this.props;
         return ( 
             <div className = {this.colors[value.cid]}>
-                 <button onClick = {()=>this.props.onClickhandle(value)} className= "box-text">{value.id}</button>
+                 <button onClick = {()=>this.props.onClickhandle(value)} className= "box-text" draggable = "true">{value.id}</button>
             </div>
          );
     }

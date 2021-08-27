@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './tableproject/table.css'
 import reportWebVitals from './reportWebVitals';
+import TableView from './tableproject/tableoption';
 import FlexTest from './flexbox';
 
 ReactDOM.render(
-  <div className = "app-board">
-    <FlexTest name = "John"/>
-    <FlexTest name = "George"/>
-    <FlexTest name = "Daniels"/>
+  <div>
+    <div className = "table-parent">
+    <TableView />
+    <TableView />
+    </div>
   </div>,
   document.getElementById('root')
 );
