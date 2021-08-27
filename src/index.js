@@ -5,9 +5,11 @@ import reportWebVitals from './reportWebVitals';
 import FlexTest from './flexbox';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <FlexTest />
-  </React.StrictMode>,
+  <div className = "app-board">
+    <FlexTest name = "John"/>
+    <FlexTest name = "George"/>
+    <FlexTest name = "Daniels"/>
+  </div>,
   document.getElementById('root')
 );
 

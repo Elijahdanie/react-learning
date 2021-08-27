@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.app-board
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .box-case {
   border-radius: 10px;
  display: flex;
@@ -27,6 +35,20 @@ body {
   align-content:center;
   flex-direction: column;
   flex-wrap: wrap;
+  margin : 50px
+}
+
+.clicked{
+  display: flex;
+  background-color: rgb(9, 31, 100);
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;border-color: rgb(170, 112, 4);
+  box-shadow: 4px 4px rgb(67, 67, 67);
+  align-self: center;
+  justify-content: center;
 }
 
 .Title{
@@ -41,6 +63,40 @@ body {
   font-weight: 500;
   font-size:40px;
   align-self: center;
+}
+
+.settings
+{
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    width: 150px;
+    background-color: rgb(174, 174, 174);
+    justify-content: center;
+  }
+
+.setbutton
+{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(50, 52, 65);
+  border-style: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.settext
+{
+  display: flex;
+  color: aliceblue;
+  font-weight: 1000px;
+  font-size: 22px;
 }
 
 .box{
