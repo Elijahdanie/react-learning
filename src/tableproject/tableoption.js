@@ -8,8 +8,7 @@ export default class TableOption extends Component {
     render() { 
         return ( 
             <div className = "table-column">
-                <TitleBar name = "Add Tasks"/>
-                <ColumnContent content = {["eat the biscuit", "drive to church"]}/>
+                <ColumnContent content = {this.props.content}/>
             </div>
          );
     }

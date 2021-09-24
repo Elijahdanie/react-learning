@@ -9,7 +9,7 @@ export default class TableView extends Component {
     render() {
         return (
             <div className="table-parent">
-                <TableOption />
+                <TableOption content = {this.props.content}/>
             </div>
         );
     }

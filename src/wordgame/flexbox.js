@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SetMatrix from './setmatrix';
-import Title from './Title';
+import Title from './Title'
 
 class Box extends Component {
     colors = [

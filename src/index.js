@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './tableproject/table.css'
 import reportWebVitals from './reportWebVitals';
-import TableView from './tableproject/tableoption';
-import FlexTest from './flexbox';
+import Ycollege from  './windowLayout YCollege/ycollege'
+import './windowLayout YCollege/ycollege.css'
 
 ReactDOM.render(
   <div>
-    <div className = "table-parent">
-    <TableView />
-    <TableView />
-    </div>
+    {/* <TableView key = "f" content = {[{id : 1, data:"eat the biscuit"}, {id:2, data:"drive to church"}]}/>
+    <TableView key = "k" content = {[{id: 1, data : "chop the tree"}, {id:2, data:"fight the rabbit"}]}/> */}
+    <Ycollege />
   </div>,
   document.getElementById('root')
 );
